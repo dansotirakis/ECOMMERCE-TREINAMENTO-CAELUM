@@ -1,0 +1,114 @@
+/*Estilização Cabeçalho Model*/
+
+    .sacola{
+        background: url("../Img/sacola.png") no-repeat top right;
+        font-size: 14px;
+        padding-right: 35px;
+        padding-top: 8px;
+        text-align: right;
+        width: 140px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 15px;
+    }
+
+    .sacolaImg{
+        text-align: right;
+    }
+
+    .naveg {
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+    }
+
+    .naveg ul{
+        font-size: 15px;
+
+        margin-right: 30px;
+    }
+
+    .naveg ul li{
+        display: inline;
+        margin-left: 14px;
+
+    }
+
+    .naveg a{
+        color: #003366;
+    }
+
+    body {
+        color: #333333;
+        font-size: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    .container{
+        margin: 0 auto;
+        width: 940px;
+    }
+
+    .logotipo {
+        psition: relative;
+        top: 20px;
+        left: 50px;
+    }
+
+    header{
+        position: relative
+    }
+
+/*Estilização Model Rodapé*/
+
+#rodape{
+    background-image: url("../Img/sobre-background.jpg");
+    padding: 20px 20px;
+    margin-bottom: 2px;
+}
+
+/*Especificos*/
+
+    .diferenciais{
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    .familia{
+        float: right;
+        margin: 0 0 10px 10px;
+    }
+
+    #hist{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #centro-dist{
+        margin: auto;
+        width: 550px;
+    }
+
+    h2{
+        border-bottom: 2px solid #333333;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    h4{
+        border-bottom: 1px solid #333333;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .texto1{
+        margin-top: 10px;
+    }
+
+    .containerImg{
+        background-color: #F2EDED;
+        border: 1px solid #ccc;
+        text-align: center;
+        padding: 15px;
+        margin: 30px;
+    }
