@@ -59,15 +59,6 @@ header{
     position: relative
 }
 
-/*Painel de ofertas*/
-.painel li{
-    display: inline-block;
-    vertical-align: top;
-    width: 140px;
-    margin: 2px;
-    padding-bottom: 10px;
-}
-
 /*Barra lateral-Menu de departamentos*/
 .menu-departamentos li{
     background-color: white;
@@ -116,11 +107,120 @@ header{
     margin-top: 10px;
 }
 
+/*Paineis*/
+.painel{
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+
+.painel li{
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel a{
+    colorl: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.novidades{
+    float: left;
+
+}
+
+.mais-vendidos{
+    background-color: #f5dcdc;
+}
+
+.novidades{
+    background-color: #dcdcf5;
+}
+
+.mais-vendidos{
+    float: right;
+
+}
+
+.painel h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.destaques {
+
+}
+
 /*Estilização Model Rodapé*/
 #rodape{
-    background-image: url("../Img/sobre-background.jpg");
+    background-image: url("../Img/fundo-rodape.png");
     padding: 20px 20px;
     margin-bottom: 2px;
+    margin-top: 2px;
+    clear: both;
+
+
+}
+
+.social a {
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.social li{
+    float: left;
+}
+
+footer{
+    padding: 20px 0;
+}
+
+.social{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+footer .container{
+    position: relative;
+}
+
+.facebook{
+    height: 30px;
+    width: 32px;
+    background-image: url("../Img/facebook.png");
+    text-indent: -9999px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.twitter{
+    height: 30px;
+    width: 32px;
+    background-image: url("../Img/twitter.png");
+    text-indent: -9999px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.googleplus{
+    height: 30px;
+    width: 32px;
+    background-image: url("../Img/googleplus.png");
+    text-indent: -9999px;
+    position: relative;
+    margin-right: 5px;
 }
 
 /*CSS Containers*/
