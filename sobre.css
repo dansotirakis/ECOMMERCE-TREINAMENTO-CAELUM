@@ -1,65 +1,50 @@
-/*Estilização Cabeçalho Model*/
+    /*Estilização Model Cabeçalho*/
+.naveg ol{
+    font-size: 15px;
+    margin-right: 30px;
+}
+.naveg ol li{
+    display: inline;
+    margin-left: 14px;
 
-    .sacola{
-        background: url("../Img/sacola.png") no-repeat top right;
-        font-size: 14px;
-        padding-right: 35px;
-        padding-top: 8px;
-        text-align: right;
-        width: 140px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin-right: 15px;
-    }
+}
+.naveg a{
+    color: #003366;
+}
+.sacola{
+    background: url("../Img/sacola.png") no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 15px;
+}
+.sacolaImg{
+    text-align: right;
+}
+.logotipo {
+    psition: relative;
+    top: 20px;
+    left: 50px;
+    margin-right: 10px;
+}
+.naveg {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+.naveg a:hover{
+    color: #dcdcdc
+}
+.naveg a:active{
+    background-color: #867dc6;
+}
 
-    .sacolaImg{
-        text-align: right;
-    }
-
-    .naveg {
-        position: absolute;
-        bottom: 0;
-        right: 0px;
-    }
-
-    .naveg ul{
-        font-size: 15px;
-
-        margin-right: 30px;
-    }
-
-    .naveg ul li{
-        display: inline;
-        margin-left: 14px;
-
-    }
-
-    .naveg a{
-        color: #003366;
-    }
-
-    body {
-        color: #333333;
-        font-size: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    }
-
-    .container{
-        margin: 0 auto;
-        width: 940px;
-    }
-
-    .logotipo {
-        psition: relative;
-        top: 20px;
-        left: 50px;
-    }
-
-    header{
-        position: relative
-    }
-
-/*Estilização Model Rodapé*/
+    /*Estilização Model Rodapé*/
 #rodape{
     background-image: url("../Img/fundo-rodape.png");
     padding: 20px 20px;
@@ -69,52 +54,41 @@
 
 
 }
-
 .social a {
     height: 32px;
     width: 32px;
     display: block;
     text-indent: -9999px;
 }
-
 .social li{
     float: left;
 }
-
-footer{
-    padding: 20px 0;
-}
-
 .social{
     position: absolute;
     top: 12px;
     right: 0;
 }
-
 footer .container{
     position: relative;
 }
-
 .facebook{
-    height: 30px;
+    height: 32px;
     width: 32px;
     background-image: url("../Img/facebook.png");
     text-indent: -9999px;
     position: relative;
     margin-right: 5px;
 }
-
 .twitter{
-    height: 30px;
+    height: 32px;
     width: 32px;
     background-image: url("../Img/twitter.png");
     text-indent: -9999px;
     position: relative;
     margin-right: 5px;
 }
-
 .googleplus{
-    height: 30px;
+    height: 32px;
     width: 32px;
     background-image: url("../Img/googleplus.png");
     text-indent: -9999px;
@@ -122,48 +96,65 @@ footer .container{
     margin-right: 5px;
 }
 
-/*Especificos*/
-
-    .diferenciais{
+    /*Especificos*/
+.diferenciais{
         margin-top: 25px;
         margin-bottom: 50px;
     }
-
-    .familia{
+.familia{
         float: right;
         margin: 0 0 10px 10px;
     }
-
-    #hist{
+#hist{
         margin-left: 10px;
         margin-right: 10px;
     }
-
-    #centro-dist{
+#centro-dist{
         margin: auto;
         width: 550px;
     }
-
-    h2{
+h2{
         border-bottom: 2px solid #333333;
         margin-top: 30px;
         padding: 20px;
     }
-
-    h4{
+h4{
         border-bottom: 1px solid #333333;
         margin-top: 30px;
         padding: 20px;
     }
-
-    .texto1{
+.texto1{
         margin-top: 10px;
     }
-
-    .containerImg{
+.containerImg{
         background-color: #F2EDED;
         border: 1px solid #ccc;
         text-align: center;
         padding: 15px;
         margin: 30px;
     }
+
+h1 + p {
+        /*text-indent: 0;*/
+    }
+:not(p):first-line{
+        font-variant: small-caps;
+    }
+
+    /*container's*/
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+    /*Pais*/
+body{
+    color: #333333;
+    font-size: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+header{
+    position: relative
+}
+footer{
+    padding: 20px 0;
+}
