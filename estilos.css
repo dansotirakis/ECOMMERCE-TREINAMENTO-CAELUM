@@ -33,9 +33,10 @@
     margin-right: 10px;
 }
 .naveg {
-    position: absolute;
+    position: inherit;
     bottom: 0;
     right: 0px;
+    left: 450px;
 }
 .naveg a:hover{
     color: #dcdcdc
@@ -47,6 +48,9 @@
     /*Estilização de destaque*/
 .destaque{
     margin-top: 10px;
+}
+.destaques {
+
 }
 
     /*Paineis*/
@@ -89,9 +93,7 @@
 
     margin-bottom: 10px;
 }
-.destaques {
 
-}
 
     /*Estilização Model Rodapé*/
 #rodape{
