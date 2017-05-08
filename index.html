@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <body>
-<header class="container">
+<header class="container div">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/estilos.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../CSS/mobile.css" media="(max-width: 939px)">
 
     <h1><a href="index.html" ><img class="logotipo" src="../Img/logo.png" alt="Crochête"></a></h1>
 
@@ -23,9 +25,9 @@
     </nav>
 </header> <!-- Fim do Cabeçalho -->
 
-<section id = "main" class="container">
+<section id = "main" class="container div">
 
-    <div class="container-destaque">
+    <div class="container container-destaque">
 
         <section class="busca">
             <h2>Busca</h2>
@@ -37,7 +39,7 @@
 
         <section class="menu-departamentos">
             <h2>Departamentos</h2>
-            <nav class="menu-opcoes">
+            <nav class="menu-opcoes containerBorder">
                 <ol>
                     <li><a href="#">BLUSAS E CAMISAS</a>
                         <ul class="sub-camisa">
@@ -57,42 +59,43 @@
                     </li><!--CALÇAS -->
                     <li><a href="#">SAIAS</a>
                         <ul class="sub-saias">
-                            <li><a href="#">Manga curta</a> </li>
-                            <li><a href="#">Manga comprida</a> </li>
-                            <li><a href="#">Camisa social</a> </li>
-                            <li><a href="#">Camisa causal</a> </li>
+                            <li><a href="#">Curta</a> </li>
+                            <li><a href="#">Comprida</a> </li>
+                            <li><a href="#">Social</a> </li>
+                            <li><a href="#">Causal</a> </li>
                         </ul>
                     </li><!--SAIAS -->
                     <li><a href="#">VESTIDOS</a>
                         <ul class="sub-vestidos">
-                            <li><a href="#">Manga curta</a> </li>
-                            <li><a href="#">Manga comprida</a> </li>
-                            <li><a href="#">Camisa social</a> </li>
-                            <li><a href="#">Camisa causal</a> </li>
+                            <li><a href="#">Curto</a> </li>
+                            <li><a href="#">Longo</a> </li>
+                            <li><a href="#">Social</a> </li>
+                            <li><a href="#">Causal</a> </li>
                         </ul>
                     </li><!--VESTIDOS -->
                     <li><a href="#">SAPATOS</a>
                         <ul class="sub-sapatos">
-                            <li><a href="#">Manga curta</a> </li>
-                            <li><a href="#">Manga comprida</a> </li>
-                            <li><a href="#">Camisa social</a> </li>
-                            <li><a href="#">Camisa causal</a> </li>
+                            <li><a href="#">Sapato casual</a> </li>
+                            <li><a href="#">Sapato social</a> </li>
+                            <li><a href="#">Sandálhias</a> </li>
+                            <li><a href="#">Sapatênis</a> </li>
+                            <li><a href="#">Tênis</a> </li>
+                            <li><a href="#">Botas</a> </li>
                         </ul>
                     </li><!--SAPATOS -->
                     <li><a href="#">BOLSAS E CARTEIRAS</a>
                         <ul class="sub-bolsascarteiras">
-                            <li><a href="#">Manga curta</a> </li>
-                            <li><a href="#">Manga comprida</a> </li>
-                            <li><a href="#">Camisa social</a> </li>
-                            <li><a href="#">Camisa causal</a> </li>
+                            <li><a href="#">Masculino</a> </li>
+                            <li><a href="#">Feminino</a> </li>
+                            <li><a href="#">Unisex</a> </li>
                         </ul>
                     </li><!--BOLSASCARTEIRAS -->
                     <li><a href="#">ACESSÓRIOS</a>
                         <ul class="sub-acessorios">
-                            <li><a href="#">Manga curta</a> </li>
-                            <li><a href="#">Manga comprida</a> </li>
-                            <li><a href="#">Camisa social</a> </li>
-                            <li><a href="#">Camisa causal</a> </li>
+                            <li><a href="#">Cintos</a> </li>
+                            <li><a href="#">Meias</a> </li>
+                            <li><a href="#">Oculos</a> </li>
+                            <li><a href="#">Relógios</a> </li>
                         </ul>
                     </li><!--ACESSORIOS -->
                 </ol>
@@ -100,12 +103,12 @@
         </section> <!-- Fim do Menu Departamentos-->
 
         <section class="destaque">
-            <img src="../Img/destaque-home.png" alt="Promoção: Big City Nigth">
+            <img src="../Img/destaque-home.png" alt="Promoção: Big City Nigth" class="containerBorder">
         </section><!--Fim da seção destaques-->
 
         <section id="destaque">
-            <div class="container paineis">
-                <section class="novidades painel">
+            <div class="container painel">
+                <section class="novidades painel containerBorder">
                     <h2>Novidades</h2>
                     <ol>
                         <li>
@@ -182,7 +185,7 @@
                         </li><!--9 item-->
                     </ol> <!--Fim da lista de novidades-->
                 </section><!--Fim da seção de novidades-->
-                <section class="painel mais-vendidos">
+                <section class="painel mais-vendidos containerBorder">
                     <h2>Mais vendidos</h2>
                     <ol>
                         <li>
@@ -266,7 +269,7 @@
 
 </section> <!--Conteudo Principal-->
 
-<footer id="rodape" class="container">
+<footer id="rodape" class="container div">
     <div class="container">
         <img src="../Img/logo-rodape.png" alt="Logo Crochet"> &copy; Copyrigth Crochêt
         <ul class="social">
